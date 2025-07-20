@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FASCO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="body__main">
+
+        <!-- ==== HEADER ===== -->
+        <header class="header">
+            <nav class="nav">
+                <h1 class="nav__logo">FASCO</h1>
+                <div class="nav__collect">
+                    <li class="nav__item activePage" data-switcher data-tab="1">Home</li>
+                    <li class="nav__item" data-switcher data-tab="2">Shop</li>
+                    <li class="nav__item" data-switcher data-tab="3">Products</li>
+                    <li class="nav__item" data-switcher data-tab="4">Pages</li>
+                    <li class="nav__item" id="signin" data-switcher data-tab="5">Sign in</li>
+                    <button class="nav__item nav__signupbtn" id="signup" data-switcher data-tab="6">Sign Up</button>
+                </div>
+                <div class="nav__icons" id="nav__icons">
+                    <i class="ri-search-line"></i>
+                    <i class="ri-user-3-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-shopping-bag-line"></i>
+                </div>
+                <i class="ri-menu-3-fill" id="bars"></i>
+            </nav>
+        </header>
+
+        <div class="menu" id="menu">
+            <div class="menu__top">
+                <div class="menu__header">
+                    <h1 class="menu__logo">FASCO</h1>
+                    <i class="ri-close-fill" id="nav__cancel"></i>
+                </div>
+                <div class="menu__body">
+                    <ul class="menu__collect">
+                        <div class="menu__item nav__item" data-switcher data-tab="1">Home</div>
+                        <li class="menu__item nav__item" data-switcher data-tab="2">Shop</li>
+                        <li class="menu__item nav__item" data-switcher data-tab="3">Products</li>
+                        <li class="menu__item nav__item" data-switcher data-tab="4">Pages</li>
+                        <li class="menu__item nav__item" id="menuSignin" data-switcher data-tab="5">Sign in</li>
+                        <button class="nav__signupbtn nav__item" id="menuSignup" data-switcher data-tab="6">Sign
+                            Up</button>
+                    </ul>
+                    <div class="menu__icons" id="menuIcons">
+                        <i class="ri-search-line"></i>
+                        <i class="ri-user-3-line"></i>
+                        <i class="ri-star-line"></i>
+                        <i class="ri-shopping-bag-line"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="menu__footer">
+                <h1 class="menu__auther">Mr.Kadirov</h1>
+                <div class="menu__icons">
+                    <i class="ri-telegram-fill" id="menu__icon"></i>
+                    <i class="ri-facebook-circle-fill" id="menu__icon"></i>
+                    <i class="ri-instagram-fill" id="menu__icon"></i>
+                    <i class="ri-twitter-fill" id="menu__icon"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="pages">
+            <div class="home page activePage" data-page="1">
+                <!-- ===== HERO ===== -->
+                <section class="hero">
+            <div class="home__container">
+                <div class="hero__col">
+                    <img class="hero__col__img" src="./images/hero1.png" alt="img">
+                </div>
+                <div class="hero__col__two">
+                    <div class="hero__col__header">
+                        <img src="./images/hero5.png" alt="img" class="col__header__img">
+                    </div>
+                    <div class="hero__col__body">
+                        <h1 class="col__body__text">ULTIMATE</h1>
+                        <h1 class="col__body__sale">SALE</h1>
+                        <p class="col__body__subtext">NEW COLLECTION</p>
+                        <button class="col__body__btn">SHOP NOW</button>
+                    </div>
+                    <div class="hero__col__footer">
+                        <img src="./images/hero4.png" alt="img" class="col__footer__img">
+                    </div>
+                </div>
+                <div class="hero__col">
+                    <img class="hero__col__img" src="./images/hero2.png" alt="img">
+                </div>
+            </div>
+        </section>
+
+                <!-- ===== BREND ==== -->
+                <section class="brend">
+                    <div class="brend__track">
+                          <img src="./images/chanel.png" alt="img">
+                <img src="./images/chanel2.png" alt="img" >
+                <img src="./images/chanel3.png" alt="img" >
+                <img src="./images/chanel4.png" alt="img" >
+                <img src="./images/chanel5.png" alt="img" >
+
+
+                                    <img src="./images/chanel.png" alt="img">
+                <img src="./images/chanel2.png" alt="img" >
+                <img src="./images/chanel3.png" alt="img" >
+                <img src="./images/chanel4.png" alt="img" >
+                <img src="./images/chanel5.png" alt="img" >
+                    </div>
+                </section>
+
+                <!-- ===== MONTHLY DEALS === -->
+                <section class="monthly__deals">
+                    <div class="monthly__container">
+                        <div class="monthly__data">
+                            <h1 class="monthly__title">Deals Of The Month</h1>
+                            <p class="monthly__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Scelerisque
+                                duis
+                                ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
+                            </p>
+                            <button class="monthly__shopbtn">Buy Now</button>
+
+                            <div class="monthly__time">
+                                <p class="monthly__time__title">Hurry, Before It’s Too Late!</p>
+                                <div class="monthly__time__data">
+                                    <div class="monthly__time__dataItem">
+                                        <div class="monthly__time__box" id="day"></div>
+                                        <p class="monthly__time__boxText">Days</p>
+                                    </div>
+                                    <div class="monthly__time__dataItem">
+                                        <div class="monthly__time__box" id="hours"></div>
+                                        <p class="monthly__time__boxText">Hr</p>
+                                    </div>
+                                    <div class="monthly__time__dataItem">
+                                        <div class="monthly__time__box" id="minut"></div>
+                                        <p class="monthly__time__boxText">Mins</p>
+                                    </div>
+                                    <div class="monthly__time__dataItem">
+                                        <div class="monthly__time__box" id="second"></div>
+                                        <p class="monthly__time__boxText">Sec</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="monthly__carusel">
+                            <div class="monthly__carusel__control">
+                                <button class="prevBtn"><i class="ri-arrow-left-wide-fill"></i></button>
+                                <button class="nextBtn"><i class="ri-arrow-right-wide-fill"></i></button>
+                            </div>
+                            <div class="cmonthly__carusel__flex">
+
+                                <div class="monthly__carusel__container">
+                                    <div class="slide fede">
+                                        <img src="./images/pop.png" alt="img">
+                                        <div class="slide__box">
+                                            <span class="slide__box__num">01 <span></span> Spring Sale</span>
+                                            <p class="slide__box__text">30% OFF</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="slide fede">
+                                        <img src="./images/pop1.png" alt="img">
+
+                                    </div>
+
+                                    <div class="slide fede">
+                                        <img src="./images/pop.png" alt="img">
+                                    </div>
+                                </div>
+
+                                <div class="dot__group" style="text-align: start;">
+                                    <span class="dot active">
+                                        <div></div>
+                                    </span>
+                                    <span class="dot">
+                                        <div></div>
+                                    </span>
+                                    <span class="dot">
+                                        <div></div>
+                                    </span>
+                                    <span class="dot">
+                                        <div></div>
+                                    </span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <!-- ===== Arrivals ======== -->
+                <section class="arrivals">
+                    <div class="arrivals__container">
+                        <h1 class="arrivals__title">New Arrivals</h1>
+                        <p class="arrivals__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
+                            duis
+                            ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
+                        </p>
+                        <div class="arrivals__nav">
+                            <button class="arrivals__navBtn" data-switcherTwo data-tab="1">Men’s Fashion</button>
+                            <button class="arrivals__navBtn activeFashion" data-switcherTwo data-tab="2">Women’s
+                                Fashion</button>
+                            <button class="arrivals__navBtn" data-switcherTwo data-tab="3">Women Accessories</button>
+                            <button class="arrivals__navBtn" data-switcherTwo data-tab="4">Men Accessories</button>
+                            <button class="arrivals__navBtn" data-switcherTwo data-tab="5">Discount Deals</button>
+                        </div>
+                        <div class="arrivals__collect">
+                            <div class="mens__fashion fashion" data-pageTwo="1">
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivasl.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>Shiny Dress</p>
+                                            <div class="arrivals__card__star">
+                                             <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals1.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>Long Dress</p>
+                                            <div class="arrivals__card__star">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals2.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>Full Sweater</p>
+                                            <div class="arrivals__card__star">
+                                                    <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals3.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>White Dress</p>
+                                            <div class="arrivals__card__star">
+                                          <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals4.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>Colorful Dress</p>
+                                            <div class="arrivals__card__star">
+                                              <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals5.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>White Shirt</p>
+                                            <div class="arrivals__card__star">
+                              <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="womans__fashion fashion activeFashion" data-pageTwo="2">
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals5.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>Shiny Dress</p>
+                                            <div class="arrivals__card__star">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals4.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>Long Dress</p>
+                                            <div class="arrivals__card__star">
+                                          <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals3.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>Full Sweater</p>
+                                            <div class="arrivals__card__star">
+                                            <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals2.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>White Dress</p>
+                                            <div class="arrivals__card__star">
+                                                 <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals1.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>Colorful Dress</p>
+                                            <div class="arrivals__card__star">
+                                               <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivasl.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>White Shirt</p>
+                                            <div class="arrivals__card__star">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="woman__fashion fashion" data-pageTwo="3">
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals2.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>Shiny Dress</p>
+                                            <div class="arrivals__card__star">
+                                                   <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals1.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>Long Dress</p>
+                                            <div class="arrivals__card__star">
+                                                     <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivasl.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>Full Sweater</p>
+                                            <div class="arrivals__card__star">
+                                                   <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals5.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>White Dress</p>
+                                            <div class="arrivals__card__star">
+                                                        <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals4.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>Colorful Dress</p>
+                                            <div class="arrivals__card__star">
+                                                    <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals5.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>White Shirt</p>
+                                            <div class="arrivals__card__star">
+                                                      <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="men__fashion fashion" data-pageTwo="4">
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals3.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>Shiny Dress</p>
+                                            <div class="arrivals__card__star">
+                                                <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals4.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>Long Dress</p>
+                                            <div class="arrivals__card__star">
+                                                        <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals5.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>Full Sweater</p>
+                                            <div class="arrivals__card__star">
+                                                        <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivasl.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>White Dress</p>
+                                            <div class="arrivals__card__star">
+                                                 <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals1.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>Colorful Dress</p>
+                                            <div class="arrivals__card__star">
+                                                       <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals2.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>White Shirt</p>
+                                            <div class="arrivals__card__star">
+                                                      <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="discount__deals fashion" data-pageTwo="5">
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals3.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>Shiny Dress</p>
+                                            <div class="arrivals__card__star">
+                                                        <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals1.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>Long Dress</p>
+                                            <div class="arrivals__card__star">
+                                                      <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivasl.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>Full Sweater</p>
+                                            <div class="arrivals__card__star">
+                                                      <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals2.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>White Dress</p>
+                                            <div class="arrivals__card__star">
+                                                        <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                                <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals5.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>Colorful Dress</p>
+                                            <div class="arrivals__card__star">
+                                                 <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+
+                   
+                            </div>
+                                         <div class="arrivals__collect__card">
+                                    <div class="arrivals__card__header">
+                                        <img src="./images/arivals4.png" alt="">
+                                    </div>
+                                    <div class="arrivals__card__body">
+                                        <div class="arrivals__card__bodyBox">
+                                            <p>White Shirt</p>
+                                            <div class="arrivals__card__star">
+                                            <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                                  <img src="./images/Vector.svg" alt="img">
+                                            </div>
+                                        </div>
+                                        <p class="arrivals__card__auther">Al Karam</p>
+
+                                        <p class="arrivals__card__costumer">(4.1k) Customer Reviews</p>
+                                    </div>
+                                    <div class="arrivals__card__footer">
+                                        <p class="arrivals__card__footerText">$95.50</p>
+                                        <p class="arrivals__card__footerSold">Almost Sold Out</p>
+                                    </div>
+                                </div>
+                        </div>
+
+                        <button class="arrivals__viewBtn">View More</button>
+                    </div>
+                </section>
+
+
+
+
+       
+
+     
+
+
+       
+
+     
+
+           
+
+  
+
+            <div class="signup page" data-page="6">
+                <section class="signUp">
+                    <div class="signup__container">
+                        <div class="signup__img">
+                            <img src="./images/signup-img.avif" alt="">
+                        </div>
+                        <div class="signup__data">
+                            <h1 class="sigin__logo">FASCO</h1>
+                            <div class="signin__box">
+                                <p class="signin__text">Create Account</p>
+
+                                <div class="signup__reg">
+                                    <button class="signin__reg__btn">
+                                        <img src="./images/google.svg" alt="" width="20" height="20">
+                                        <p>Sign up with Google</p>
+                                    </button>
+                                    <button class="signin__reg__btn">
+                                        <img src="./images/email.svg" alt="" width="20" height="20">
+                                        <p>Sign up with Email</p>
+                                    </button>
+                                </div>
+                                <h3 class="signin__or">
+                                    <div></div> OR <div></div>
+                                </h3>
+
+                                <div class="signup__form">
+                                    <input class="signup__input" id="signinNme" type="text" placeholder="First Name"
+                                        required>
+                                    <input class="signup__input" id="signinLastName" type="text"
+                                        placeholder="Last Name " required>
+                                    <input class="signup__input" id="signinEmail" type="email"
+                                        placeholder="Email Address" required>
+                                    <input class="signup__input" id="signinNumber" type="number"
+                                        placeholder="Phone Number" required>
+                                    <input class="signup__input" id="signinPasword" type="password"
+                                        placeholder="Password" required>
+                                    <input class="signup__input" id="signinConfirPasword" type="password"
+                                        placeholder="Confirm Password" required>
+                                </div>
+
+                                <div class="signup__btns">
+                                    <button class="signup__btn" id="signupBtn">Create Account</button>
+                                </div>
+
+                                <p class="account__login">Already have an account? <a href="#">Login</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+          
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
